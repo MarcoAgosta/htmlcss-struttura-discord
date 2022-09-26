@@ -32,10 +32,13 @@
 
 }
 
+.link-list-item{
+    padding: 0px 0.5rem;
+}
+
 .link-list-item a{
     text-decoration: none;
     color: black;
-    padding: 0.5rem
 }
 
 .giallo-element{
@@ -44,14 +47,28 @@
 }
 
 .centrale{
-    flex-grow: 2;
+    width: 66%;
     text-align: center;
 }
 
 .laterale{
-    flex-grow: 1;
+    width: 33%;
 }
 
 .destro{
     text-align: end;
+}
+
+.white-backgroun{
+    background-color: white;
+}
+
+.blue-box{
+    background-color: blue;
+    padding: 20px;
+}
+
+.pink-box{
+    background-color: palevioletred;
+    padding: 20px;
 }
