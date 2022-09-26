@@ -59,16 +59,16 @@
     text-align: end;
 }
 
-.white-backgroun{
-    background-color: white;
-}
-
-.blue-box{
+.background-blue{
     background-color: blue;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
-.pink-box{
+.pink-cube{
+    height: 500px;
+    width: 40%;
     background-color: palevioletred;
-    padding: 20px;
 }
