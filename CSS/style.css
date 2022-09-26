@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+footer{
+    margin-top: 1px;
+}
 
 .conteiner-nav{
     background-color: aqua;
@@ -13,6 +16,10 @@
     width: 920px;
     margin: auto;
     display: flex;
+}
+
+.piccolo{
+    padding-top: 10px;
 }
 
 .grande{
@@ -95,6 +102,47 @@
     background-color: palevioletred;
 }
 
+.green-cube{
+    background-color: green;
+    height: 800px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
 .grigio{
     background: lightgray;
 }
+
+.darkgray{
+    background-color: darkgray;
+}
+
+.pink-cube2{
+    background-color: darksalmon;
+    height: 600px;
+    width: 30.0%;
+    border: 1px dashed black;
+}
+
+.sky-cube{
+    background-color: aquamarine;
+    height: 600px;
+    width: calc(70%/4);
+    border: 1px dashed white;
+}
+
+.acqua{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pulsanti{
+    margin: 0.5rem 0px;
+    border: 1px dashed black;
+}
+
+
+
