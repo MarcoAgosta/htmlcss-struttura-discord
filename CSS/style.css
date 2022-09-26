@@ -15,6 +15,10 @@
     display: flex;
 }
 
+.grande{
+    padding: 50px 0px;
+}
+
 .giallo{
     background-color: darkorange;
 }
@@ -59,16 +63,38 @@
     text-align: end;
 }
 
-.background-blue{
-    background-color: blue;
+.background-color{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.blue-cube{
+    background-color: skyblue;
     height: 600px;
+    width: 66.6%;
+    border: 1px dashed black;
 }
 
 .pink-cube{
+    background-color: pink;
+    height: 600px;
+    width: 33.3%;
+    border: 1px dashed black;
+
+}
+
+.purple-cube{
     height: 500px;
     width: 40%;
     background-color: palevioletred;
+}
+
+.grigio{
+    background: lightgray;
 }
