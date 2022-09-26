@@ -3,3 +3,55 @@
     margin: 0;
     padding: 0;
 }
+
+.conteiner-nav{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.conteiner{
+    width: 920px;
+    margin: auto;
+    display: flex;
+}
+
+.giallo{
+    background-color: darkorange;
+}
+
+.giallo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.link-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.link-list-item a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem
+}
+
+.giallo-element{
+    border: 1px dashed black;
+    padding: 0.5em;
+}
+
+.centrale{
+    flex-grow: 2;
+    text-align: center;
+}
+
+.laterale{
+    flex-grow: 1;
+}
+
+.destro{
+    text-align: end;
+}
